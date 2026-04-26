@@ -1,0 +1,23 @@
+baseURL = 'https://blog.global-nav.com/'
+languageCode = 'zh-cn'
+title = '杨圣的数字笔记'
+theme = 'paper'
+
+# 核心配置：确保中文分词和首页显示
+hasCJKLanguage = true
+
+[params]
+    # 强制让首页显示 post 目录下的内容
+    mainSections = ["post"]
+    # 你的社交链接（可选）
+    description = "折腾跨境工具、出海基建与被动收入的笔记"
+
+[[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 10
+
+[[menu.main]]
+    name = '归档'
+    url = '/post/'
+    weight = 20
